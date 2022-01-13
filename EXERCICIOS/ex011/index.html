@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente ou diminua o tamanho no seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h2>Colocando áudio no site</h2>
+    <audio preload="metadata"autoplay controls loop> 
+        <source src="midia/Natural Light - Chris Haugen.mp3" type="audio/mpeg">
+        <source src="midia/Natural Light - Chris Haugen.ogg" type="audio/ogg">
+        <source src="midia/Natural Light - Chris Haugen.wav" type="audio/wav">
+        <!--Se o navegador nao abrir a musica-->
+        <p>Infelizmente o navegador não consegue reproduzir o áudio. <a href="midia/Natural Light - Chris Haugen.mp3">Clique aqui para baixar o arquivo mp3.</a></p>
+    </audio>
+</body>
+</html>

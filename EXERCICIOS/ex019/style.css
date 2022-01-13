@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Tudo que em Html é (id) = em Css é (#)
+  Tudo que em Html é (class) = em Css é (.)
+  
+  A tag <span> serve para selecionar uma palavra ou frase e aplicar a sua id ou class nela. */
+
+  body{
+    background-color: rgb(136, 248, 209);
+    font:normal bold 1em arial,verdana,sans-serif;
+}
+
+h1#principal{
+    background-color:rgb(93, 177, 8);
+    color:rgb(136, 248, 209);
+    text-align: center;
+}
+
+h1{
+    color: rgb(27, 121, 66);
+    text-align: center;
+}
+
+h2{
+    color: rgb(64, 247, 47);
+    text-align: left;
+}
+
+.basico{
+    color:rgb(50, 47, 247) ;
+}
+.intermediario{
+    color: rgb(247, 200, 47);
+}
+.avancado{
+    color: rgb(247, 47, 47);
+}
+.destaque{
+    background-color: rgb(184, 134, 11);
+}

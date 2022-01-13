@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código-Fonte/Pré-Formatação</title>
+</head>
+<body>
+    <h1>Código-Fonte/Pré-Formatação</h1>
+    <p>O comando <code>document.get</code>(teste) é escrito em linguagem javascript.</p>
+    <p>Fica estranho o espaçamento das letras nesse código..podemos usar a tag(code) para deixar o texto monoespaçado.</p>
+    <p>Podemos usar uma pré-formatação em algum texto tbm, como nesse exemplo:</p>
+    <code>
+        {
+        num: int
+        printf("Escreva um numero: ");
+        if (num % 2 == 0)
+        printf("O numero é par");
+        else
+        printf("O numero é impar");
+        }
+    </code>
+    <p>Como vimos, ficou tudo junto sem indentação. Podemos utilizar a tag (pre) junto da tag (code), para indentar o texto, como nesse exemplo:
+    </p>
+    <pre>
+        <code>
+    {
+    int main()
+    int num;
+    printf("Escreva um numero: ");
+    scanf(num);
+    if (num % 2 == 0){
+    printf("O numero %d e par",num);
+    }
+    else{
+    printf("O numero %d e impar",num);
+    }
+    }
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Para fazer citações simples,<q> usamos a tag (q)</q></p>
+    <h2>Citações Completas</h2>
+    <p>Usamos a tag (blockquote) para inserir citacoes de autores e etc...
+        Podemos usar tbm dentro do (blockquote cite=) para citar o link  </p>
+
+    <pre>
+        <blockquote cite="https://estudante.estacio.br/disciplinas/estacio_6790495/temas/1/conteudos/1">
+        De acordo com (Navathe, 2005), podemos definir um banco de dados como um conjunto de dados que se relacionam. 
+        Porém, o significado do termo é mais restrito do que esta definição. 
+        Um banco de dados, necessariamente, possui as seguintes propriedades:
+        
+        Um banco de dados é uma coleção lógica coerente de dados com um significado inerente; uma disposição desordenada de dados não pode ser referenciada como um banco de dados; 
+        Um banco de dados é projetado, construído e populado com dados para um propósito específico;  
+        Um banco de dados possui um conjunto pré-definido de usuários e aplicações; 
+        Um banco de dados representa algum aspecto do mundo real, o qual é chamado de "minimundo" e qualquer alteração efetuada neste minimundo é automaticamente refletida no banco de dados.
+        </blockquote>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    </pre>
+</body>
+</html>
